@@ -1,0 +1,26 @@
+1-
+   relative path: /images/image1
+   full path: C:/users/mazen/website/images.image1.png
+
+2-
+    relative path: ./js/app.js
+    full path: C:/users/mazen/website/js/app.js
+
+3-
+    relative path: ../footage/video.mp4
+    full path: C:/users/mazen/footage/video.mp4
+
+4-
+    relative path: css/styles.css
+    full path: C:/users/mazen/website/css/styles.css
+
+5-
+    relative path: no relative path as the file is in a different directory
+    full path: D:/memories/photo1.jpeg
+
+
+
+
+
+
+
