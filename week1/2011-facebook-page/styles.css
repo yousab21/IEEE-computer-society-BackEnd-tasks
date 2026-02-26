@@ -1,0 +1,324 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  width: 200px;
+  position: absolute;
+  left: 200px;
+  bottom: 10px;
+}
+
+.topBar {
+  position: relative;
+  height: 10vh;
+  background-color: #3b5998;
+}
+
+.loginEmailContainer {
+  position: absolute;
+  right: 500px;
+}
+
+.loginEmailText {
+  margin-top: 5%;
+  color: white;
+}
+
+.loginEmailInput {
+  height: 25px;
+  width: 200px;
+  font-size: 20px;
+}
+
+.logininEmailCheckerbox {
+  height: 20px;
+  width: 20px;
+  margin: 5px 2px 5px 0px;
+}
+
+.loginPasswordText {
+  margin-top: 5%;
+  color: white;
+}
+
+.loginPasswordContainer {
+  position: absolute;
+  right: 250px;
+}
+
+.loginPasswordInput {
+  height: 25px;
+  width: 200px;
+  font-size: 20px;
+}
+
+.forgotPasswordLink {
+  position: absolute;
+  color: #8a9dc2;
+  margin: 5px 0px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.loginEmailBoxText {
+  position: absolute;
+  color: #8a9dc2;
+  margin: 5px 0px;
+  display: inline-block;
+}
+
+.loginButton {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  right: 150px;
+  top: 31px;
+  padding: 3px 10px;
+  box-shadow: 1px 2px 3px #26417a;
+  border: solid 1px #26417a;
+  background-color: #5972a7;
+}
+
+.mainPage {
+  height: 75vh;
+  background-image: linear-gradient(to top, #d3d8e8, #ffffff);
+}
+
+.signUpForm {
+  position: absolute;
+  right: 100px;
+  top: 10%;
+  width: 600px;
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: repeat(14, 50);
+  margin: 20px;
+}
+
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  margin: 0px 15px 15px 0px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.item2 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  margin: 0px 15px 0px 0px;
+  padding: 0px 0px 10px 0px;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.item3 {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  margin: 0px 15px 15px 0px;
+  border: 1px solid #3b5998;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 5px;
+  height: 30px;
+}
+
+.item4 {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  margin: 0px 15px 15px 0px;
+  border: 1px solid #3b5998;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 5px;
+  height: 30px;
+}
+
+.item5 {
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  margin: 0px 15px 15px 0px;
+  border: 1px solid #3b5998;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 5px;
+  height: 30px;
+}
+
+.item6 {
+  grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  margin: 0px 15px 15px 0px;
+  border: 1px solid #3b5998;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 5px;
+  height: 30px;
+}
+
+.item7 {
+  grid-row-start: 6;
+  grid-row-end: 7;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  margin: 0px 15px 15px 0px;
+  border: 1px solid #3b5998;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 5px;
+  height: 30px;
+}
+
+.item8 {
+  grid-row-start: 7;
+  grid-row-end: 8;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  margin: 0px 15px 15px 0px;
+  font-size: 20px;
+}
+
+.item9 {
+  grid-row-start: 8;
+  grid-row-end: 9;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  margin: 0px 15px 15px 0px;
+  border: 1px solid #3b5998;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 5px;
+  height: 30px;
+}
+
+.item10 {
+  grid-row-start: 8;
+  grid-row-end: 9;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  margin: 0px 15px 15px 0px;
+  font-size: 20px;
+}
+
+.item11 {
+  grid-row-start: 9;
+  grid-row-end: 10;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  margin: 0px 15px 15px 0px;
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.item12 {
+  grid-row-start: 10;
+  grid-row-end: 11;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  margin: 0px 15px 15px 0px;
+  font-size: 16px;
+  color: grey;
+  text-decoration: none;
+}
+
+.item13 {
+  grid-row-start: 11;
+  grid-row-end: 12;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  margin: 0px 15px 15px 0px;
+  padding: 5px;
+  font-size: 20px;
+  color: white;
+  border: 1px solid #3b5998;
+  border-radius: 5px;
+  font-weight: bold;
+  background-image: linear-gradient(to top, #3b6e22, #64a852);
+  height: 50px;
+}
+
+.item14 {
+  grid-row-start: 11;
+  grid-row-end: 12;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  margin: 0px 15px 15px 0px;
+  font-size: 16px;
+}
+
+.item15 {
+  grid-row-start: 12;
+  grid-row-end: 13;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.item16 {
+  grid-row-start: 13;
+  grid-row-end: 14;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  margin: 15px 15px 15px 0px;
+  font-size: 16px;
+}
+
+.connectionImage {
+  position: absolute;
+  left: 200px;
+  top: 150px;
+  width: 800px;
+}
+
+.languages {
+  position: absolute;
+  left: 200px;
+  bottom: 100px;
+}
+
+.activities {
+  position: absolute;
+  left: 200px;
+  bottom: 60px;
+}
+
+.about {
+  position: absolute;
+  left: 200px;
+  bottom: 35px;
+}
+
+.link {
+  margin: 0px 30px 0px 0px;
+}
+
+.bottomBreak {
+  position: absolute;
+  left: 200px;
+  bottom: 85px;
+  width: 83%;
+}
+
+.bottomBar {
+  display: grid;
+  grid-template-columns: repeat(9, 50px);
+  height: 15vh;
+  background-color: #ffffff;
+}

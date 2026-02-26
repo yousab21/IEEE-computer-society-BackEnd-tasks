@@ -1,0 +1,1 @@
+the class name for <a> tag referring to the NTRA website is "sponser-card" 
