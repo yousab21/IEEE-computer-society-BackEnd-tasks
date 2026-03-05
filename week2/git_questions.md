@@ -29,7 +29,7 @@
   6. pushing ai changes without fully testing them 
 
 ## which is not true:
-    "Git is a cloud-based service to store remote repositories."
+   >Git is a cloud-based service to store remote repositories   
   git is not a cloud service is a version control system that allows you to track 
   changes in repositories
   those repos can be hosted on cloud services like github
