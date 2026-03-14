@@ -1,1 +1,67 @@
+1- the internat is the network of networks and understanding the basic concepts on networking will enable me in building and maintaining web applications
 
+2- i used a tool called nslookup here is the command for it " nslookup ieeemansb.org " it found 4 addresses 2 ipv4 and 2 ipv6
+    Name:    ieeemansb.org
+    Addresses:  2606:4700:3033::6815:5698
+                2606:4700:3034::ac43:dd4d
+                172.67.221.77
+                104.21.86.152
+
+3-You are browsing a website that starts with https://. : TCP
+You are sending an email to your friend. : TCP
+Your computer performs a DNS lookup to resolve a domain name to an IP address. : TCP
+You are downloading a file from a server. : TCP
+You are chatting with your friend using a messaging app. : TCP
+You are editing a document on Google Docs and the updates appear instantly on your colleague's device. : UDP
+You are watching a live stream on Twitch. : UDP
+You are playing an online game with your friends. : UDP
+
+4- 
+  status code: 200 (OK)
+  Content-Type: text/html
+  Connection: keep-alive
+  Content-Length: "i didn't fint that headers in the client provided or in the devoloper tools when visiting example.com which should be the same as sending a get request"
+
+5- 
+  ip : 
+    structure: 32bit in ipv4 written as 4 dicimal numbers between 0 and 255 seperated by dots or 128bit in ipv6 written as hex numbers between 00 and ff seperated by colons 
+    usage: for logical addressing between routers over the internet 
+    network layer: layer 3 the network layer and the data and headers at this point represent packets
+  mac : 
+    structure: 48bit written as 6 hex pairs separated by colons
+    usage: for physical adrressing to devices in the same lan using switches
+    network layer: layer 2 the data link layer and the data and headers at this point represent frames
+
+6- IPv4 addresses are written in decimal notation separated by periods, while IPv6 addresses are written in hexadecimal notation separated by colons.  : false (colons)
+IPv4 uses 32-bit addresses, while IPv6 uses 128-bit addresses.   : true
+IPv4 does not support subnetting, while IPv6 supports subnetting.    : false both support subnetting
+I can conclude my IPv6 address if I know my IPv4 address.   : false both protocols work independentaly
+
+7- Retransmitting the failed transfers and reordering the packets to form the original message is a responsibility of which layer in the OSI model?  : the tranform layer
+
+8- What is the advantage of the three-way handshake in TCP connection establishment? : it ensures reliable communication by synchronizing the seq and ack numbers between the two devices
+
+9- it is a networking tool for troubleshooting a connection between two hosts by measuring somting called the round trip time which is the total time it takes for a data packet to travel to its destination and back
+
+10- it is a way for the server to comunicate the status of the request it is sending a responce to it can be usfull in troubleshooting to determine if an error in is comming is from the client side or the server's
+
+11- The client requests a resource that does not exist on the server. : 404 not found
+The client sends a request that the server cannot understand. : 400 bad request
+The client sends a lot of requests in a short time and the server cannot handle them all.  : 429 too many requests
+The user enters a wrong password when trying to log in.  : 401 unautherized
+A user with normal previliges tries to access an admin-only page. : 403 forbidden
+The server is under maintenance and cannot handle any requests. : 503 service unavailable
+The client asks for a page that has been moved permanently to another URL. : 301 moved permanently
+The client request is handled successfully but there is no content to send back. : 200 ok
+
+12- if i have internet in general the first two layers should be fine for the remaining 5 
+    and since the connection timed out enteirly without even sending a respond with a bad status code those cant be the issue
+  so it either :
+    network layer : i would try to ping the api iam trying to use if it doesnt repond that is the issue 
+    transport layer : i would try to check the status of the ports in the api i found a tool called telnet that can do that
+
+13- A file download is incomplete because some packets were lost in transit.  : transport layer
+Your web app works fine on localhost, but when deployed, it's unreachable due to a misconfigured firewall. : network layer
+Your computer is connected to a Wi-Fi network, but you can't access the internet.  : data link layer
+You get a 404 error when trying to access a webpage.  : application layer
+The browser tells you that the SSL certificate of a website is invalid. : presentation layer
