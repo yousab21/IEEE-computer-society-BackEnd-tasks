@@ -41,3 +41,18 @@ to plan out the actual creation on the DB
 ### 6. creation: 
 - finaly after all this planning we being to actually run the queries to create our database    
 and designing the API to interact with it
+
+## DB keyes    
+- keys are atrributes that can be used to identify members of a database
+- there are mant types of keys thoes aand the can be picifies on diffirant specifications like :   
+    1. on number of attruibuts in a key : (**simple keys** and **composite keys**)
+    2. on minimal data required to define a key : (**minimal key** or **none-minimal key**)     
+#### candidate keys :
+- are defined as **minimal super keys** that are **unique** for each member
+#### primary key : 
+- is a chosen key from avilibale **candidate keys** to serve as the main way to identify members    
+of an entity, for that reason it **can not be null** for any member     
+- every other candidate key that is not the primary key is called an **alternate key**
+#### forign keys :
+- is the way tables are connected to each other by sharing a common    
+candidate keye **usually the primayry key**
