@@ -1,0 +1,33 @@
+Why do we need databases while we can just store data in an excel sheet? (2 pts.)
+ 
+we use databases insted of excel sheets for many reasons like :
+1- databases are design to be much more scalable
+2- databases are handels via database management systems which offer tools and APIs to interact with the data and the are uisually much more secure than excel sheets
+3- for relational databases SQL is standredized to be used for doing crud which makes designing programes that interact with the data easier
+
+
+
+What is a DBMS? and what are the advantages of using it? (2 pts.)
+
+database managment systems are programes designed to manage and maintain databases and they offer APIs that make interacting with said data by other programes 
+possible, they also often offer more tools and featuers over plain sql like data security protocols
+
+
+
+
+What is the difference between SQL and NoSQL databases? Mention the advantages and disadvantages of each. (4 pts.)
+
+SQL or relational databases store structured data in table that have a fixed schema that is usually costly to change
+	advantages :
+		they are easily scalable verticaly
+		they are generaly more secure and garantee ACID properties
+	disanvantages :
+		they are not easy to scale horizontoly so they can reach a hard-cap of storable data
+		they are easily adaptable to changes in thier scheme often being a costly operation
+
+NO_SQL or un_relational databaes store data any other way than rows and coloma examples are graphs and documents
+	advantages :
+		they are designed for horizontale scaling making them suitable for storing massive amounts of data
+		they do not follow a certine schema which makes them more adaptable to change
+	disadvangaes :
+		they often dont garantee ACID properties
