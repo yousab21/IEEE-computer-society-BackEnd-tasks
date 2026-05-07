@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS "cars"(
+  "ID" TEXT,
+  "Price" NUMERIC,
+  "Levy" TEXT,
+  "Manufacturer" TEXT,
+  "Model" TEXT,
+  "Prod. year" TEXT,
+  "Category" TEXT,
+  "Leather interior" TEXT,
+  "Fuel type" TEXT,
+  "Engine volume" TEXT,
+  "Mileage" TEXT,
+  "Cylinders" TEXT,
+  "Gear box type" TEXT,
+  "Drive wheels" TEXT,
+  "Doors" TEXT,
+  "Wheel" TEXT,
+  "Color" TEXT,
+  "Airbags" TEXT
+);
